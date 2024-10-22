@@ -1,0 +1,91 @@
+/* .main-video{
+    margin-top: 500px;
+    margin-left: 31%;
+    
+    display: flex;
+    position: absolute;
+    top: 80;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.main-body{
+    margin-bottom: 500px;
+    margin-top: 400px;
+    margin-left: auto;
+    
+    display: flex;
+    position: absolute;
+    top: 80;
+    left: 0;
+    right: 0;
+    /* height: 50px;
+    width: 100%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    margin-bottom: 500px;
+    margin-top: 1000px;
+    margin-left: 20%;
+    
+    display: flex;
+    position: absolute;
+    top: 80;
+    left: 0;
+    right: 0;
+    /* height: 50px;
+    width: 100%; */
+    justify-content: left;
+    align-items: left;
+}
+
+h1{
+    margin-bottom: 60px;
+}
+.cookieImage{
+    margin: 10px;
+    align-items: center;
+    align-content: center;
+
+}
+
+h2.cookieDesc{
+    text-align: center;
+    font-family: SuezOne;
+    color: #BA214E;
+    font-size: 50px;
+}
+.cookieDesc{
+    text-align: center;
+    font-family: RobotoBold;
+    color: black;
+    font-size: 25px;
+}
+
+.indexDescSpan{
+    font-family: RobotoSlab-Bold;
+
+}
+.indexDescSpan2{
+    color: #E1144F;
+}
+.indexDesc{
+    margin-top: 40px;
+    font-family: RobotoSlab;
+    font-size: 52px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+
+}
+
+.hauMap{
+    margin: 150px;
+}

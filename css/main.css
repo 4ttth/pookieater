@@ -1,0 +1,202 @@
+
+@media screen and (min-width: 600px){
+
+        body{
+        background-color: #FFFFFF; /* HOME PAGE */
+        overflow-x: hidden;
+        /* background: linear-gradient(180deg, #F6C2CF 15%, #FFFFFF 30%, #FFFFFF 70%, #F6C2CF 100%) scroll;  About us & T&C */
+    }
+
+
+    header{
+        background: url(../images/header_updated3.png);
+        position: absolute;
+        height: 300px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+
+    }
+
+    .background-pink{
+        position: absolute;
+        height: 300px;
+        left: 0px;
+        right: -100px;
+        top: 0px;
+
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 39.5%, rgba(251, 230, 235, 0.412698) 47%, #F6C2CF 58.5%);
+
+    }
+    .headerImage {
+        /* width: 1920px; */
+        margin-top: -95px;
+        margin-right: 55px;
+        position: absolute;
+        top: 4px;
+        right: 16px;
+        /* logo(text) */
+    }
+
+    .logo-header{
+        height: 190px;
+        margin-bottom: -105px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 16px;
+        left: 40px;
+        
+        /* logo(image) */
+
+    }
+
+    footer{
+        position: fixed;
+        top: 3200;
+        left: 0;
+        bottom: 0;
+        background-color: #F6C2CF;
+        position: absolute;
+        /* width: 1900px; */
+        height: 240px;
+        left: 0px;
+        right: 0px;
+        color: black;
+    }
+
+    .center-footer{
+        display: flex;
+        position: absolute;
+        top: 100;
+        left: 0;
+        right: 0;
+        height: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .socLinks{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .rightLinks{
+        margin-top: 270px;
+        margin-right: -60px;
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+    .navLinks li{
+        display: inline-block;
+        list-style-type: none;
+        justify-content: center;
+        font-family: RobotoSlab-Bold;
+        color: #BA214E;
+        padding: 20px;
+        font-size: 32px;
+        
+    }
+
+
+}
+
+@media screen and (min-width: 800px){
+
+        body{
+        background-color: #FFFFFF; /* HOME PAGE */
+        overflow-x: hidden;
+        /* background: linear-gradient(180deg, #F6C2CF 15%, #FFFFFF 30%, #FFFFFF 70%, #F6C2CF 100%) scroll;  About us & T&C */
+    }
+
+
+    header{
+        background: url(../images/header_updated3.png);
+        position: absolute;
+        height: 300px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+
+    }
+
+    .background-pink{
+        position: absolute;
+        height: 300px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 39.5%, rgba(251, 230, 235, 0.412698) 47%, #F6C2CF 58.5%);
+
+    }
+    .headerImage {
+        /* width: 1920px; */
+        margin-top: -95px;
+        margin-right: 55px;
+        position: absolute;
+        top: 4px;
+        right: 16px;
+        /* logo(text) */
+    }
+
+    .logo-header{
+        height: 400px;
+        margin-bottom: -175px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 8px;
+        left: 56px;
+        
+        /* logo(image) */
+
+    }
+
+    footer{
+        position: fixed;
+        top: 3200;
+        left: 0;
+        bottom: 0;
+        background-color: #F6C2CF;
+        position: absolute;
+        /* width: 1900px; */
+        height: 240px;
+        left: 0px;
+        right: 0px;
+        color: black;
+    }
+
+    .center-footer{
+        display: flex;
+        position: absolute;
+        top: 100;
+        left: 0;
+        right: 0;
+        height: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .socLinks{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .rightLinks{
+        margin-top: 250px;
+        margin-right: 55px;
+        position: absolute;
+        top: 4px;
+        right: 16px;
+    }
+    .navLinks li{
+        display: inline-block;
+        list-style-type: none;
+        justify-content: center;
+        font-family: RobotoSlab-Bold;
+        color: #BA214E;
+        padding: 35px;
+        font-size: 86px;
+        
+    }
+
+
+}
