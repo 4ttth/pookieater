@@ -14,12 +14,28 @@
 
 } */
 
+@media screen and (max-width: 767px) {
+  /* .main-video{
+    margin-top: 500px;
+    margin-left: 31%;
+    
+    display: flex;
+    position: absolute;
+    top: 80;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 
-.main-content{
+} */
+
+  .main-content {
     margin-bottom: 500px;
     margin-top: 400px;
     margin-left: 20%;
-    
+
     display: flex;
     position: absolute;
     top: 80;
@@ -29,57 +45,120 @@
     width: 100%; */
     justify-content: left;
     align-items: left;
-}
+  }
 
-h1{
+  h1 {
     margin-bottom: 60px;
-}
-.cookieImage{
+  }
+  .cookieImage {
     margin: 10px;
     align-items: center;
     align-content: center;
-    
-}
+  }
 
-h2.cookieDesc{
+  h2.cookieDesc {
     text-align: center;
     font-family: SuezOne;
-    color: #BA214E;
+    color: #ba214e;
     font-size: 50px;
-}
-.cookieDesc{
+  }
+  .cookieDesc {
     text-align: center;
     font-family: Roboto;
     color: black;
     font-size: 25px;
-}
+  }
 
-.indexDescSpan{
+  .indexDescSpan {
     font-family: RobotoSlab-Bold;
-
-}
-.indexDescSpan2{
-    color: #E1144F;
-}
-.indexDesc{
+  }
+  .indexDescSpan2 {
+    color: #e1144f;
+  }
+  .indexDesc {
     margin-top: 40px;
     font-family: RobotoSlab;
     font-size: 52px;
     text-align: justify;
     text-justify: inter-word;
     color: black;
+  }
 
-}
-
-.buttonOrderNow{
-    background-color: #E1144F;
+  .buttonOrderNow {
+    background-color: #e1144f;
     border-color: white;
     font-size: 32px;
     border-radius: 0%;
-}
+  }
 
-.buttonOrderNow:hover{
-    background-color: #BA214E;
+  .buttonOrderNow:hover {
+    background-color: #ba214e;
     border-color: white;
     border-radius: 0%;
+  }
+}
+.main-content {
+  margin-bottom: 500px;
+  margin-top: 400px;
+  margin-left: 20%;
+
+  display: flex;
+  position: absolute;
+  top: 80;
+  left: 0;
+  right: 0;
+  /* height: 50px;
+    width: 100%; */
+  justify-content: left;
+  align-items: left;
+}
+
+h1 {
+  margin-bottom: 60px;
+}
+.cookieImage {
+  margin: 10px;
+  align-items: center;
+  align-content: center;
+}
+
+h2.cookieDesc {
+  text-align: center;
+  font-family: SuezOne;
+  color: #ba214e;
+  font-size: 50px;
+}
+.cookieDesc {
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+  font-size: 25px;
+}
+
+.indexDescSpan {
+  font-family: RobotoSlab-Bold;
+}
+.indexDescSpan2 {
+  color: #e1144f;
+}
+.indexDesc {
+  margin-top: 40px;
+  font-family: RobotoSlab;
+  font-size: 52px;
+  text-align: justify;
+  text-justify: inter-word;
+  color: black;
+}
+
+.buttonOrderNow {
+  background-color: #e1144f;
+  border-color: white;
+  font-size: 32px;
+  border-radius: 0%;
+}
+
+.buttonOrderNow:hover {
+  background-color: #ba214e;
+  border-color: white;
+  border-radius: 0%;
 }
